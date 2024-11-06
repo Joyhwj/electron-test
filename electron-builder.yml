@@ -21,7 +21,7 @@ nsis:
 mac:
   target:
     - target: dmg
-      arch: universe
+      arch: universal
   entitlementsInherit: build/entitlements.mac.plist
   extendInfo:
     - NSCameraUsageDescription: Application requests access to the device's camera.
@@ -36,7 +36,6 @@ linux:
     - AppImage
     - snap
     - deb
-    arch: universe
   maintainer: electronjs.org
   category: Utility
 appImage:
